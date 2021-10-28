@@ -1,8 +1,13 @@
+
 #populaires {
     width: 100%;
     border-radius:0px;
+    font-size: 150%
 }
-
+.titre_section{
+    font-size: 250%;
+    height: 62.5px;
+}
 
 
 
