@@ -1,4 +1,4 @@
-
+@media screen and (min-width:769px) and (max-width:992px) {
 #filter_zone {
     max-width: 80%;
     flex-wrap: wrap;
@@ -65,4 +65,63 @@ footer {
 .frise_activite {
     padding-top: 7.5px;
     padding-bottom: 7.5px;
+}
+}
+
+@media screen and (min-width:1px) and (max-width:768px) {
+    .titre_section {
+        font-size: 250%;
+    }
+    
+    #populaires {
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+    .lien_image_pop {
+        width: 40%;
+    }
+    
+    .nom_populaire {
+        font-size: 200%;
+        margin: 10px;
+        height: 74px;
+    }
+    
+    .texte_pop {
+        width: 50%;
+        height: 90%;
+    }
+    
+    p {
+        font-size: 200%;
+        margin: 10px;
+    }
+    
+    .etoiles_pop {
+        margin-top:20%;
+        margin-left: 10px
+    }
+    
+    .font135 {
+        font-size: 200%;
+    }
+    
+    .etoiles {
+        font-size: 130%;
+        margin: -20px;
+        padding: 0px;
+        margin-left: 15px;
+    }
+    
+    .cadre_hebergement {
+        width: 90%;
+        height: 15%;
+    }
+    
+    #hebergements {
+        width: 100%;
+        height: 3000px;
+        background-color: transparent;
+    }
 }
