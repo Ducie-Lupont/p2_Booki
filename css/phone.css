@@ -93,3 +93,112 @@ h1 + p {
 
 /*Filtres*/
 
+#filter_zone {
+    flex-direction: column;
+}
+
+#filters{
+    font-size: 200%;
+    justify-content: left;
+}
+
+.filter {
+    justify-content: left;
+    height: auto;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    width: 50%;
+}
+
+.filter h2 {
+    font-size: 200%;
+}
+
+.cercle_icone {
+    width: 102px;
+    height: 102px;
+    border-radius: 51px;
+}
+
+.fa-money-bill-wave {
+    font-size: 200%;
+}
+
+.fa-child {
+    font-size: 200%;
+}
+
+.fa-heart {
+    font-size: 200%;
+}
+
+.fa-dog {
+    font-size: 200%;
+}
+
+/*Populaires*/
+
+#populaires {
+    display: flex;
+    width: 100%;
+    height: 1500px;
+    order: 1;
+    flex-wrap: wrap;
+    border-radius: 0%;
+    margin-top: 50px;
+}
+
+.titre_section {
+    width: 100%;
+    font-size: 250%;
+}
+
+.cadre_populaire {
+    height: 25%;
+}
+
+.nom_prix {
+    font-size: 250%;
+}
+
+#activites {
+    order: 3;
+}
+
+.texte_pop {
+    max-width: 50%;
+}
+
+.etoiles_pop .fa-star {
+    margin-top: 30%;
+}
+
+.fa-star {
+    font-size: 200%;
+}
+
+/*Hébergements*/
+
+#hebergements {
+    order: 2;
+    width: 100%;
+    height: 4000px;
+    background-color: transparent;
+}
+
+.vignettes_hebergement {
+    height: 90%;
+}
+
+.cadre_hebergement {
+    width: 90%;
+    height: 15%;
+}
+
+.photo_sizing {
+    height: 60%;
+}
+
+#Show_more {
+    font-size: 250%;
+}
