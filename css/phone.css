@@ -161,10 +161,6 @@ h1 + p {
     font-size: 250%;
 }
 
-#activites {
-    order: 3;
-}
-
 .texte_pop {
     max-width: 50%;
 }
@@ -201,4 +197,77 @@ h1 + p {
 
 #Show_more {
     font-size: 250%;
+}
+
+/*Activités*/
+
+#activites {
+    order: 3;
+    height: 2500px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#titre_activites {
+    font-size: 250%;
+}
+
+#ligne_activites {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cadre_activites {
+    width: 90%;
+    height: 1250px;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+}
+
+.grande {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 25px;
+}
+
+.cadre_petites {
+    flex-direction: column;
+    width: 100%;
+}
+
+.petite1 {
+    width: 100%;
+    height: 400px;
+}
+
+.petite2 {
+    width: 100%;
+    height: 400px;
+}
+
+.petite3 {
+    width: 100%;
+    height: 400px;
+}
+
+.frise_activite {
+    font-size: 250%;
+}
+
+/*Footer*/
+
+li {
+    font-size: 250%;
+}
+
+#section_footer {
+    flex-direction: column;
+}
+
+.div_footer {
+    width: 100%;
+    height: 33.3%;
 }
