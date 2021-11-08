@@ -1,7 +1,10 @@
+@media (max-width: 768px) {
+
 /*En-tête*/
 header {
     height: auto;
 }
+
 #en-tete {
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +56,7 @@ h1 + p {
 
 /*Formulaire de recherche*/
 
-#form_desktop_tablet {
+#search_desktop {
     display: none;
 }
 
@@ -270,4 +273,6 @@ li {
 .div_footer {
     width: 100%;
     height: 33.3%;
+}
+
 }

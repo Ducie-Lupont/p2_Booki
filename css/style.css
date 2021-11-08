@@ -92,7 +92,7 @@ h1 + p {
 
 /* Formulaire*/
 
-#form_phone {
+.search_phone {
     display: none;
 }
 
