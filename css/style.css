@@ -16,6 +16,8 @@ a {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -59,21 +61,20 @@ header {
     justify-content: center;
     align-items: center;
     color: black;
+    border-top: 5px solid transparent;
 }
 
 .texte_nav {
     font-weight: normal;
 }
 
-.nav_h:active {
-    border-top: 10px solid #0065FC;
-    margin-top: -10px;
+.nav_h:hover {
+    border-top: 5px solid #0065FC;
     color: #0065FC;
 }
 
-.nav_a:active {
-    border-top: 10px solid #0065FC;
-    margin-top: -10px;
+.nav_a:hover {
+    border-top: 5px solid #0065FC;
     color: #0065FC;
 }
 
@@ -94,6 +95,10 @@ h1 + p {
 
 .search_phone {
     display: none;
+}
+
+.search_desktop {
+    display: flex;
 }
 
 .search_form {
@@ -128,7 +133,6 @@ h1 + p {
 
 
 .search_button {
-    display: flex;
     background-color: #0065FC;
     width: 150px;
     height: 60px;
@@ -288,6 +292,7 @@ h1 + p {
     flex-wrap: wrap;
     gap: 10px 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
 }
 
 .photo_sizing {
@@ -307,14 +312,13 @@ h1 + p {
 }
 
 h3.nom_prix {
-    margin: 0px;
-    margin-left: 10px;
-    padding: 0px;
+    position: absolute;
+    top: 50%; left: 10px;
 }
 
 p.nom_prix {
-    margin: 0px;
-    margin-left: 10px;
+    position: absolute;
+    top: 65%; left: 10px;
 }
 
 
@@ -326,7 +330,8 @@ p.nom_prix {
 
 .etoiles {
     display: flex;
-    margin-left: 15px;
+    position: absolute;
+    top: 85%; left: 10px;
 }
 
 .fa-star {
@@ -391,12 +396,23 @@ p.nom_prix {
 }
 
 .texte_pop {
-    max-width: 190px;
+    position: relative;
+    width: 50%;
 }
 
+h3.nom_prix_pop {
+    position: absolute;
+    top: 1%; left: 10px;
+}
+
+p.nom_prix_pop {
+    position: absolute;
+    top: 25%; left: 10px;
+}
 .etoiles_pop {
     display: flex;
-    margin-left: 10px;
+    position: absolute;
+    top: 80%; left: 10px;
 }
 
 /*Activités*/
