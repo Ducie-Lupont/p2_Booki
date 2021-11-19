@@ -1,4 +1,4 @@
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width:769px) and (max-width:992px) {
 
 body {
     width: auto;
@@ -6,10 +6,6 @@ body {
 
 #search_phone {
     display: none;
-}
-
-h1 {
-    max-width: 80%;
 }
 
 /*Populaires*/
@@ -99,4 +95,5 @@ h1 {
     width: 45%;
     height: 95%;
 }
+
 }
