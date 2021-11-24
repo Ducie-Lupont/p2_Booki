@@ -29,11 +29,11 @@ header {
 #navigation {
     width: 100%;
     height: 80px;
+    gap: 0px;
 }
 
 .bouton_nav {
     width: 50%;
-    gap: 0px;
 }
 
 .nav_h {
@@ -42,17 +42,14 @@ header {
 }
 
 .nav_a {
+    border-top: 0px solid transparent;
     border-bottom: 5px solid #f2f2f2;
 }
 
 h1 {
-    font-size: 300%;
-    line-height: 50px;
-    max-width: 80%;
-}
-
-h1 + p {
-    font-size: 200%;
+    line-height: 40px;
+    max-width: 90%;
+    margin-left: 20px;
 }
 
 /*Formulaire de recherche*/
@@ -63,32 +60,40 @@ h1 + p {
 
 #form_phone {
     display: flex;
-    height: 100px;
+    height: 50px;
     flex-direction: row;
     flex-wrap: nowrap;
 }
 
+.search_form {
+    margin-left: 20px;
+}
+
 .gps_button {
-    width: 100px;
-    height: 100px;
+    width: 62px;
+    height: 62px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
 .search_space {
-    height: 95%;
-    width: 450px;
-}
-
-::placeholder {
-    font-size: 150%;
+    height: 56px;
+    width: 220px;
 }
 
 .search_button {
-    height: 100%;
-    width: 100px;
+    height: 62px;
+    width: 62px;
     margin-left: -25px;
     border-radius: 25px;
+}
+
+.search_desktop {
+    display:none;
+}
+
+.search_phone {
+    display: flex;
 }
 
 .fa-search {
@@ -102,7 +107,6 @@ h1 + p {
 }
 
 #filters{
-    font-size: 200%;
     justify-content: left;
 }
 
@@ -114,30 +118,10 @@ h1 + p {
     width: 50%;
 }
 
-.filter h2 {
-    font-size: 200%;
-}
-
 .cercle_icone {
     width: 102px;
     height: 102px;
     border-radius: 51px;
-}
-
-.fa-money-bill-wave {
-    font-size: 200%;
-}
-
-.fa-child {
-    font-size: 200%;
-}
-
-.fa-heart {
-    font-size: 200%;
-}
-
-.fa-dog {
-    font-size: 200%;
 }
 
 /*Populaires*/
@@ -154,15 +138,10 @@ h1 + p {
 
 .titre_section {
     width: 100%;
-    font-size: 250%;
 }
 
 .cadre_populaire {
     height: 25%;
-}
-
-.nom_prix {
-    font-size: 250%;
 }
 
 .texte_pop {
@@ -171,10 +150,6 @@ h1 + p {
 
 .etoiles_pop .fa-star {
     margin-top: 30%;
-}
-
-.fa-star {
-    font-size: 200%;
 }
 
 /*Hébergements*/
@@ -199,10 +174,6 @@ h1 + p {
     height: 60%;
 }
 
-#Show_more {
-    font-size: 250%;
-}
-
 /*Activités*/
 
 #activites {
@@ -211,10 +182,6 @@ h1 + p {
     align-content: center;
     display: flex;
     flex-direction: column;
-}
-
-#titre_activites {
-    font-size: 250%;
 }
 
 #ligne_activites {
@@ -257,15 +224,9 @@ h1 + p {
     height: 400px;
 }
 
-.frise_activite {
-    font-size: 250%;
-}
 
 /*Footer*/
 
-li {
-    font-size: 250%;
-}
 
 #section_footer {
     flex-direction: column;
@@ -273,7 +234,6 @@ li {
 
 .div_footer {
     width: 100%;
-    height: 33.3%;
 }
 
 }
