@@ -12,6 +12,20 @@ h1 {
     max-width: 80%;
 }
 
+.nav_a:hover {
+    border-top: 5px solid transparent;
+    color: black;
+}
+
+.nav_h:hover {
+    border-top: 5px solid transparent;
+    color: black;
+}
+
+.nav_h {
+    border-top: 5px solid #0065fc;
+    color: #0065fc;
+}
 /*Populaires*/
 
 #populaires {
@@ -32,16 +46,24 @@ h1 {
     height: 25%;
 }
 
-.nom_prix {
-    font-size: 135%;
-}
 
 /*Hébergements*/
+
+h3.nom_prix {
+    top: 56%;
+}
+
+p.nom_prix {
+    top: 68%;
+}
+
 
 #hebergements {
     order: 2;
     width: 100%;
     background-color: transparent;
+    margin-bottom: 50px;
+    height: auto;
 }
 
 .vignettes_hebergement {
@@ -50,7 +72,8 @@ h1 {
 
 .cadre_hebergement {
     width: 45%;
-    height: 30%;
+    height: 300px;
+    position: relative;
 }
 
 .photo_sizing {
@@ -61,7 +84,7 @@ h1 {
 
 #activites {
     order: 3;
-    height: 24%;
+    height: 800px;
 }
 
 #ligne_activites {
@@ -99,4 +122,16 @@ h1 {
     width: 45%;
     height: 95%;
 }
+
+h3.frise_activite {
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: auto;
+}
+
+footer {
+    margin-top: auto;
+}
+
 }
